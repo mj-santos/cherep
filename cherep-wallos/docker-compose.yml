@@ -1,6 +1,7 @@
 version: "3.7"
 
 services:
+
   app_proxy:
     environment:
       APP_HOST: cherep-wallos_server_1
@@ -8,9 +9,6 @@ services:
 
   server:
     image: bellamy/wallos:latest
-    environment:
-      TZ: "America/Chicago"
-    volumes:
-      - ${APP_DATA_DIR}/db:/var/www/html/db
-      - ${APP_DATA_DIR}/logos:/var/www/html/images/uploads/logos
     restart: on-failure
+    user: "1000:1000"
+    init: true
