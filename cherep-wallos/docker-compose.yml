@@ -5,10 +5,9 @@ services:
   app_proxy:
     environment:
       APP_HOST: cherep-wallos_server_1
-      APP_PORT: 50090
+      APP_PORT: 3001
 
   server:
     image: bellamy/wallos:latest
     restart: on-failure
-    user: "1000:1000"
     init: true

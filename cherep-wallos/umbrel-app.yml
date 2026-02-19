@@ -5,7 +5,7 @@ tagline: Subscription tracker
 icon: https://raw.githubusercontent.com/ellite/Wallos/main/images/logo.png
 category: Finance
 version: "latest"
-port: 50091
+port: 4001
 
 description: >-
   Wallos is a self-hostable personal subscription tracker.
