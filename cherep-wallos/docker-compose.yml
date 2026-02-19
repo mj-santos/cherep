@@ -7,7 +7,11 @@ services:
       APP_HOST: cherep-wallos_server_1
       APP_PORT: 80
 
-  server:
+  wallos:
     image: bellamy/wallos:latest
-    restart: on-failure
-    init: true
+    environment:
+      TZ: "America/Chicago"
+    volumes:
+      - ${APP_DATA_DIR}/db:/var/www/html/db
+      - ${APP_DATA_DIR}/logos:/var/www/html/images/uploads/logos
+    restart: unless-stopped
