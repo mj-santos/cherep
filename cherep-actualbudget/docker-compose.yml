@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: cherep-actualbudget_nginx_1
-      APP_PORT: 5006
+      APP_PORT: 8080
 
   server:
     image: actualbudget/actual-server:latest
