@@ -1,0 +1,30 @@
+manifestVersion: 1
+
+id: cherep-actualbudget
+name: Actual Budget
+tagline: Local-first personal finance app
+icon: https://actualbudget.org/img/actual.png
+category: Finance
+
+version: "latest"
+port: 40104
+
+description: >-
+  Actual is a local-first personal finance app that runs locally on your device.
+  It supports budgeting, expense tracking, and optional syncing.
+
+developer: Actual Budget
+website: https://actualbudget.org
+repo: https://github.com/actualbudget/actual
+support: https://github.com/actualbudget/actual/issues
+
+gallery: []
+
+releaseNotes: >-
+  Initial community release.
+
+dependencies: []
+
+path: ""
+defaultUsername: ""
+defaultPassword: ""
