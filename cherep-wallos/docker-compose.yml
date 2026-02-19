@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: cherep-wallos_server_1
+      APP_PORT: 50090
+
+  server:
+    image: bellamy/wallos:latest
+    environment:
+      TZ: "America/Chicago"
+    volumes:
+      - ${APP_DATA_DIR}/db:/var/www/html/db
+      - ${APP_DATA_DIR}/logos:/var/www/html/images/uploads/logos
+    restart: on-failure

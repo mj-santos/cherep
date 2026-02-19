@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: cherep-wallos
+name: Wallos
+tagline: Subscription tracker
+icon: https://raw.githubusercontent.com/ellite/Wallos/main/images/logo.png
+category: Finance
+version: "latest"
+port: 5009
+
+description: >-
+  Wallos is a self-hostable personal subscription tracker.
+
+developer: ellite
+website: https://github.com/ellite/Wallos
+repo: https://github.com/ellite/Wallos
+support: https://github.com/ellite/Wallos/issues
+
+gallery: []
+releaseNotes: ""
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
