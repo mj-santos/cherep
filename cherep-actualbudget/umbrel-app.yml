@@ -6,7 +6,7 @@ tagline: Local-first personal finance app
 icon: https://github.com/mj-santos/cherep/blob/master/icons/actual-icon.png
 category: Finance
 
-version: "latest"
+version: "latest:latest"
 port: 40104
 
 description: >-
