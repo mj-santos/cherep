@@ -2,7 +2,7 @@ manifestVersion: 1
 id: cherep-wallos
 name: Wallos
 tagline: Subscription tracker
-icon: https://raw.githubusercontent.com/ellite/Wallos/main/images/logo.png
+icon: https://github.com/mj-santos/cherep/blob/master/icons/wallos-icon.png
 category: Finance
 version: "latest"
 port: 40103

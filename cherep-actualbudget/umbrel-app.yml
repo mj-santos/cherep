@@ -3,7 +3,7 @@ manifestVersion: 1
 id: cherep-actualbudget
 name: Actual Budget
 tagline: Local-first personal finance app
-icon: https://actualbudget.org/img/actual.png
+icon: https://github.com/mj-santos/cherep/blob/master/icons/actual-icon.png
 category: Finance
 
 version: "latest"
